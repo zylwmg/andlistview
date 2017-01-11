@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+   <string-array name="ctype">
+        <item>身份证</item>
+    	<item>学生证</item>
+    	<item>军人证</item>
+    	<item>工作证</item>
+    	<item>其他</item>
+    </string-array>
+    
+    <string-array name="ctype1">
+    	<item>情景模式</item>
+    	<item>主题模式</item>
+    	<item>手机</item>
+    	<item>程序管理</item>
+    	<item>通话设置</item>
+    	<item>连接功能</item>
+    </string-array>
+    
+</resources>
