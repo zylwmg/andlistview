@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 						public void onItemSelected(AdapterView<?> parent, View arg1,
 								int pos, long id) {
 							String result = parent.getItemAtPosition(pos).toString(); // 获取选择项的值
-							Log.i("Spinner示例", result);
+							Log.i("Spinner", result);
 						}
 
 						@Override
