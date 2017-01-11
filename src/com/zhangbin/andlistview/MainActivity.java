@@ -26,8 +26,8 @@ import android.widget.AdapterView.OnItemSelectedListener;
 public class MainActivity extends Activity {
 	static final boolean L1 =false;
 	static final boolean L2 =false;
-	static final boolean L3 =false;
-	static final boolean L4 =true;
+	static final boolean L3 =true;
+	static final boolean L4 =false;
 	
 	private String[] data ={"apple","banana","orange","mango","grape","pineapple","cherry"};
 	@Override
